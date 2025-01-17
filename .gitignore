@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/task-manager-frontend/node_modules
+# testing
+/coverage
+/test-results
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+task.pem
+package-lock.json
+yarn.lock
+.vscode/
+task.pem
